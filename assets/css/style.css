@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header  {
+    background-color: brown;
+}
+
 body {
-    font-family: arial;
+    font-family: Girassol, Open Sans;
+    font-weight: 400;
 }
