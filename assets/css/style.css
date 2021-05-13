@@ -6,11 +6,45 @@
     border: none;
 }
 
-header  {
-    background-color: brown;
-}
-
 body {
     font-family: Girassol, Open Sans;
     font-weight: 400;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    color:black;
+    background-color: cornsilk;
 }
+
+h1, h2 {
+    font-family: Girassol, Open Sans;
+    color: black;
+}
+
+/* Header */
+
+.page-header {
+    height: 50%;
+    background: center;
+    text-align: center;
+    background-color: darkgrey;
+}
+
+/* Navigation links */
+
+#links {
+    font-size: 120%;
+    letter-spacing: 10px;
+    background: none;
+    display: inline;
+    float: right;
+    text-transform: uppercase;
+}
+
+#links li {
+    float: right;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+
