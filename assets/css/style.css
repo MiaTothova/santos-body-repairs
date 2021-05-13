@@ -13,7 +13,7 @@ body {
     padding: 0;
     margin: 0;
     color:black;
-    background-color: cornsilk;
+    background-color: rgb(248, 246, 239);
 }
 
 h1, h2 {
@@ -23,28 +23,36 @@ h1, h2 {
 
 /* Header */
 
+header {
+    background-color: rgb(112, 93, 93);
+    color: white;
+    padding: top 30px;
+    min-height: 70px;
+}
 .page-header {
+    width: 100%;
     height: 50%;
     background: center;
     text-align: center;
-    background-color: darkgrey;
+    overflow: hidden;
+   font-size: 200%;
+
 }
 
 /* Navigation links */
 
-#links {
+header nav {
     font-size: 120%;
-    letter-spacing: 10px;
     background: none;
-    display: inline;
-    float: right;
     text-transform: uppercase;
 }
 
-#links li {
+header li {
+    text-decoration: none;
     float: right;
-    text-transform: uppercase;
-    list-style-type: none;
+    display: inline;
+    padding: 20 20 20 20;
+    
 }
 
 
