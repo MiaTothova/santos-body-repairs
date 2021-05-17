@@ -12,10 +12,10 @@ body {
     padding: 0;
     margin: 0;
     color:black;
-    background-color: rgb(218, 174, 16);
+    background-color: rgb(212, 211, 204) !important;
 }
 
-h1, h2, h3 p {
+h1, h2, h3 {
     font-family: Girassol, Open Sans;
     color: black;
 }
@@ -27,14 +27,13 @@ h1, h2, h3 p {
     opacity: 0.5;
     width: 100%;
     height: 400px;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     overflow: hidden;
     
 }
 
 header {
-    background-color: rgb(112, 93, 93);
     padding: top 30px;
     min-height: 70px;
 }
@@ -88,16 +87,45 @@ header p {
 /* Who we are section */
 
 #about-us {
-    height: 300px;
+    height: 150px;
+    text-align: left;
+    margin: 20px;
 }
 
 #about-us .intro {
-    text-align: left;
-    margin: 20px;
-    font-size: 250%;
+    font-size: 300%;
 }
 
-#about-us p {
+/* Main section */
 
+.wrapper {
+    width: 600px;
+    height: 400px;
+    padding: 0;
+    border-style: solid;
+    border-color: rgb(32, 32, 32);
+    border-width: 1px;
+    float: right;
+    margin-right: 10px;
+}
+#polish-image {
+    background: url('../images/man-polish-car-garage_1157-36574.jpg') no-repeat center center;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
 }
 
+/* services section */
+
+#services {
+    height: 300px;
+    text-align: center;
+}
+#services h2 {
+    font-size: 300%;
+}
+#services li {
+    list-style-type:none;
+    padding: 15px;
+}
