@@ -16,12 +16,21 @@ body {
     background-color: rgb(248, 246, 239);
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Girassol, Open Sans;
     color: black;
 }
 
 /* Header */
+#home {
+    background: url('../images/bmw-header-photo.jpg') no-repeat center center;
+    width: 100%;
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    
+}
 
 header {
     background-color: rgb(112, 93, 93);
@@ -41,18 +50,33 @@ header {
 
 /* Navigation links */
 
-header nav {
+#menu {
     font-size: 120%;
+    letter-spacing: 4px;
     background: none;
     text-transform: uppercase;
 }
 
-header li {
+
+ #menu li{
     text-decoration: none;
     float: right;
-    display: inline;
-    padding: 20 20 20 20;
-    
+    padding: 10 20 10 20;
 }
 
+/* Who we are section */
+
+#about-us {
+    height: 300px;
+}
+
+#about-us .intro {
+    text-align: left;
+    margin: 20px;
+    font-size: 250%;
+}
+
+#about-us p {
+
+}
 
