@@ -95,6 +95,9 @@ header p {
 #about-us .intro {
     font-size: 300%;
 }
+#about-us p {
+    font-size: 120%;
+}
 
 /* Main section */
 
@@ -128,4 +131,15 @@ header p {
 #services li {
     list-style-type:none;
     padding: 15px;
+}
+
+#call-in {
+    height: 150px;
+    text-align: center;
+}
+#call-in h2 {
+    font-size: 300%;
+}
+#call-in p {
+    font-size: 120%;
 }
