@@ -24,20 +24,17 @@ h1, h2, h3 {
 
 #home {
     background: url('../images/bmw-header-photo.jpg') no-repeat center center;
-    opacity: 0.7;
+    background-color: #3a3a3a;
     width: 100%;
     height: 400px;
     background-size: cover;
     background-position: center;
-    overflow: hidden;
-    
+    overflow: hidden; 
 }
-
 header {
     padding: top 30px;
     min-height: 70px;
 }
-
 header h1 {
     font-size: 400%;
     color: black;
@@ -53,7 +50,6 @@ header p {
     text-align: center;
     overflow: hidden;
    font-size: 200%;
-   opacity: 1;
 
 }
 
@@ -68,35 +64,41 @@ header p {
  #menu li{
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 10px;
+    padding-top: 140px;
 }
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: #1aa2cc;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #1a6dcc;
+    background-color: #050505;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a ;
+    border-bottom: 1px solid #1a6dcc ;
 }
 
 /* Who we are section */
 
 #about-us {
-    height: 150px;
+    height: 300px;
     text-align: left;
-    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    background-color: #4e4b4b;
 }
 
-#about-us .intro {
+#about-us h2 {
     font-size: 300%;
 }
 #about-us p {
     font-size: 120%;
+    color: #F0F8FF
 }
 
 /* Main section */
@@ -106,10 +108,10 @@ header p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: #4e4b4b;
     width: 100%;
     height: 400px;
     overflow: hidden;
-    opacity: 0.7;
     margin: 0 10 0 10;
 }
 .wrapper {
@@ -128,10 +130,12 @@ header p {
 
 /* Call in service */
 #call-in {
-    height: 200px;
+    width: 100%;
+    height: 300px;
    margin-top: 10px;
    margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
+    padding-top: 50px;
     color: #F0F8FF;
     background-color: #4e4b4b;
 }
@@ -145,7 +149,7 @@ header p {
 /* Footer */
 #social-links {
     background-image: url('../images/pexels-alexander-ant-4585185.jpg');
-    opacity: 0.7;
+    background-color: #4e4b4b;
     width: 100%;
     background-size: cover;
     background-position: center;
