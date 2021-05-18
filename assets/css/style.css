@@ -11,19 +11,19 @@ body {
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    color:black;
+    color: #000000;
     background-color: rgb(212, 211, 204) !important;
 }
 
 h1, h2, h3 {
     font-family: Girassol, Open Sans;
-    color: black;
+    color: #000000;;
 }
 
 /* Header */
 
 #home {
-    background: url('../images/bmw-header-photo.jpg') no-repeat center center;
+    background: url('../images/pexels-alexander-ant-4585185.jpg') no-repeat center center;
     background-color: #3a3a3a;
     width: 100%;
     height: 400px;
@@ -37,11 +37,11 @@ header {
 }
 header h1 {
     font-size: 400%;
-    color: black;
+    color: #ffffff;;
 }
 
 header p {
-    color: black;
+    color: #ffffff;;
 }
 .page-header {
     width: 100%;
@@ -101,31 +101,32 @@ header p {
     color: #F0F8FF
 }
 
-/* Main section */
+/* Services section */
 
 #services {
-    background: url('../images/man-polish-car-garage_1157-36574.jpg');
+    background: url('../images/bmw-header-photo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #4e4b4b;
+    background-color: rgba(0, 0, 0, .7);
     width: 100%;
-    height: 400px;
+    height: 700px;
     overflow: hidden;
     margin: 0 10 0 10;
 }
-.wrapper {
+
+#services h2 {
+    font-size: 400%;
+    margin-top: 20px;
+    color:inherit;
     text-align: center;
 }
-.wrapper h2 {
-    font-size: 400%;
+#services h4 {
+    font-size: 200%;
+    padding: 10px;
+    color:inherit;
+    text-align: center;
 }
-.wrapper h4 {
-    font-size: 150%;
-    padding: 5px;
-}
-
-/* services section */
 
 
 /* Call in service */
