@@ -178,9 +178,16 @@ header p {
 
 
 /*GALLERY PAGE IMAGES*/
+#gallery {
+    height: 650px;
+}
 
 #gallery > div {
     display: inline-block;
+}
+
+#gall-h2 {
+    font-size: 300%;
 }
 
 
@@ -206,6 +213,74 @@ header p {
     max-width: 240px;
 }
 
+/*-----CONTACT US PAGE-----*/
+
+#form-section {
+    background-image: url('/assets/images/bmw-header-2.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#form {
+    
+    margin: 0 auto;
+}
+
+.get-in-touch {
+    font-size: 300%;
+    
+}
+
+
+.radio {
+  margin: 0 auto;
+  
+}
+
+.submit {
+    align-content: center;
+}
+
+
+
+
+#phone {
+    margin: 50px;
+    height: 150px;
+}
+
+#phone  h2 {
+    font-size: 300%;
+}
+
+/*-----CONTACT DETAILS-------*/
+
+.info > span {
+    color:  #e0d9d9;
+
+}
+
+/*------ GOOGLE MAPS-----*/
+        
+    #map-wrapper {
+        height: 300px;
+        margin: 70px;
+    }
+    #map-wrapper h2 {
+        font-size: 300%;
+        float: right;
+    }
+    
+    #map {
+        height: 100%;
+        width: 100%;
+        border-style: inset;
+        border-radius: 25px;
+    }   
+    
 
 
 
@@ -214,7 +289,10 @@ header p {
 
 /* For larger to medium screen size from 1200px wide and down */
 
-@media screen and (max-width: 1200px); {
+
+
+screen and (max-width
+ 1200px) {
    
 }
 /* For medium screen sizes from 950px wide and down */
@@ -223,6 +301,7 @@ header p {
     
 }
     /* For small screens 800px and down */
-@media screen and (max-width: 800px;) {
+@media screen and (max-width: 800px
+) {
     
     }
