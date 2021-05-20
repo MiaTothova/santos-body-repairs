@@ -55,7 +55,8 @@ header p {
 
 /* Navigation links */
 
-#menu {
+
+/*#menu {
     font-size: 120%;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -80,7 +81,9 @@ header p {
 
 .active {
     border-bottom: 1px solid #1a6dcc ;
-}
+}*/
+
+
 
 /* Who we are section */
 
@@ -170,6 +173,7 @@ header p {
    margin-top: 10px;
    padding: 5%;
     color: #e0d9d9;
+    background-color: rgba(00, 00, 00, 0.2);
 }
 
 
