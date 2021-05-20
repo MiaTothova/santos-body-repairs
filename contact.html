@@ -20,7 +20,7 @@
 <body>
     <!-- Header -->
 	<header id="home">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-dark background-color: #e3f2fd;">
 			<div class="container-fluid">
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -59,84 +59,93 @@
 
 	</header>
 
-    <section>
-        <h2 class="text-center">Form</h2>
+    
 <!-----START OF CONTACT FORM - Code Snippet:-Took basic form structure for users to get in touch and customised with own content from: https://getbootstrap.com/docs/4.0/components/forms/#form-groups-->
-        <form>
-                <div class="form-row">
-                  <div class="col-sm-2  col-md-4 col-lg-8 col-xl-10">
+          <section id="form-section" class="col-sm-10  col-md-8 col-lg-6 col-xl-4"> 
+
+             <h2 class="text-center get-in-touch">Get In Touch</h2>
+             <form>
+                <div class="form-row ">
+                  <div id="form" class=" col-sm-10  col-md-8 col-lg-6 col-xl-4">
                      <label for="fname">First name</label>
-                    <input type="text" class="form-control" placeholder="First name">
+                    <input type="text" class="form-control" placeholder="First name" required>
                   </div>
                   
-                  <div class="col-sm-2  col-md-4 col-lg-8 col-xl-10">
+                  <div id="form" class="col-sm-10  col-md-8 col-lg-6 col-xl-4">
                      <label for="lname">Last Name</label>
-                    <input type="text" class="form-control" placeholder="Last name">
+                    <input type="text" class="form-control" placeholder="Last name" required>
                   </div>
                 </div>
-            <div class="form-group row">
-              <label for="inputEmail3" class="col-sm-2 col-md-4 col-lg-8 col-xl-10 col-form-label">Email</label>
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-              </div>
-            </div>
 
-            <div class="form-group col-sm-2 col-md-4 col-lg-8 col-xl-10">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-            
+                <div id="form" class="col-sm-10  col-md-8 col-lg-6 col-xl-4">
+                    <label for="inputEmail3">Email</label>
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+                 </div>
+               </div>
+               
             <fieldset class="form-group">
               <div class="row">
-                <legend class="col-form-label col-sm-2  col-md-4 col-lg-8 col-xl-10 pt-0">Best time to contact you?</legend>
+                <legend class="col-form-label col-sm- col-md-8 col-lg-6 col-xl-4 pt-0 " >Best time to contact you?</legend>
                 <div class="col-sm-10">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                    <label class="form-check-label" for="gridRadios1">
-                     Morning
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <div  class="form-check radio col-sm- col-md-8 col-lg-6 col-xl-4">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" required>
                     <label class="form-check-label" for="gridRadios2">
-                      After Lunch
+                      After Lunch (Between 2pm and 5pm)
                     </label>
                   </div>
-                  
+                  <div class="form-check  radio col-sm-10  col-md-8 col-lg-6 col-xl-4">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
+                    <label class="form-check-label" for="gridRadios1">
+                     Morning (Between 9am and 12pm)
+                    </label>
+                  </div>
                   </div>
                 </div>
               </div>
             </fieldset>
-            <div class="form-group row">
-              <div class="col-sm-2  col-md-4 col-lg-8 col-xl-10">Subscribe to Our Newsletter</div>
-              <div class="col-sm-10">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck1">
-                  <label class="form-check-label" for="gridCheck1">
-                </div>
-              </div>
-            </div>
 
-            <div class="form-group row">
-              <div class="col-sm-10">
+            <div  id="form" class="form-group col-sm-10  col-md-8 col-lg-6 col-xl-4">
+                <label for="exampleFormControlTextarea1" placeholde="Your message here">Message</label>
+                <textarea class="form-control" placeholder="Your message here" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+
+
+            <div class="form-group row submit">
+              <div class="col-sm-2">
                 <button type="submit" class="btn btn-primary">Submit</button>
               </div>
             </div>
           </form>
-<!-------------------------------------------- END OF CONTACT FORM ------------------------------------------------------------------------------------------------------------------------>
-    </section>
-
-
-    <section>
+          </section>
+<!--------------------------------------------------------------END OF CONTACT FORM --------------------------------------------------------------------------------------------------------->
+  
+<!------------------------START OF CONTACT INFORMATION--------------------------------------------------------------------------------------------------------------------------------------->
+    <section id="phone" >
         <h2>Contact Details</h2>
+        <div class="info">
+          <span>
+          <h4 >Phone <i class="fas fa-phone"></i></h4>
+          <h5>065 683 8767</h5>
+        </span>
+          <span>
+          <h4>WhatsApp <i class="fab fa-whatsapp"></i></h4>
+          <h5>087 987 6543</h5>
+        </span>
+        <span>
+          <h4>Email <i class="fas fa-at"></i></h4>
+          <h5>santosbodyrepairs@gmail.com</h5>
+        </span>
+        </div>
+      </section>
+    
+<!---------------GOOGLE MAPS----------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div id="map-wrapper"> 
+        <h2>Where to Find Us</h2>
+          <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26810.622835505575!2d-8.839647727304037!3d53.14264570327258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b836ffc596c81%3A0xae6f412de3e50e3e!2sCentra%20Labane%20Service%20Station!5e1!3m2!1sen!2sie!4v1621538001975!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
     </section>
 
-
-    <section>
-        <h2>Map</h2>
-    </section>
-
-
+<!------------------------FOOTER---------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
     <footer id="social-links">
         <div class="container">
@@ -151,6 +160,7 @@
                 <li>
                     <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="vissit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
                 </li>
+                <p>Copyright © 2021 | Santos Body Repairs rights reserved.</p>
             </ul>
           </div>
         </div>
