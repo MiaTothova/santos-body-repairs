@@ -126,11 +126,13 @@ header p {
 #services h2 {
     font-size: 400%;
     color:inherit;
+    text-decoration: underline;
 }
 #services h4 {
     font-size: 200%;
     padding: 10px;
-    color:inherit;
+    color:#F0F8FF;
+    font-weight: bold;
 }
 
 
@@ -176,6 +178,10 @@ header p {
     background-color: rgba(00, 00, 00, 0.2);
 }
 
+.rights {
+    color: #e0d9d9;
+}
+
 
 /*GALLERY PAGE IMAGES*/
 #gallery {
@@ -188,6 +194,17 @@ header p {
 
 #gall-h2 {
     font-size: 300%;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+#video {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+#video  h2 {
+    font-size: 200%;
 }
 
 
@@ -215,22 +232,36 @@ header p {
 
 /*-----CONTACT US PAGE-----*/
 
-#form-section {
-    background-image: url('/assets/images/bmw-header-2.jpg');
-    width: 100%;
-    background-size: cover;
+ #form-section {
+   /* background-image: url('/assets/images/bmw-header-2.jpg');
+     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    overflow: hidden;
-}
+    overflow: hidden; */
+    margin: 0 auto;
+    margin-top: 20px;
+    border-style: inset;
+    border-radius: 25px;
+    border-color: #e0d9d9;
+    
+  
+} 
 
 #form {
-    
     margin: 0 auto;
+  
 }
+
+/*.form-opacity {
+    background-color: rgba(180, 180, 180, 0.5);
+   
+
+} */
 
 .get-in-touch {
     font-size: 300%;
+    text-decoration: underline;
     
 }
 
@@ -241,7 +272,9 @@ header p {
 }
 
 .submit {
-    align-content: center;
+    text-align: center;
+    padding: 10px;
+ 
 }
 
 
@@ -254,6 +287,10 @@ header p {
 
 #phone  h2 {
     font-size: 300%;
+    text-decoration: underline;
+}
+#phone h5 {
+    color: black;
 }
 
 /*-----CONTACT DETAILS-------*/
@@ -266,11 +303,12 @@ header p {
 /*------ GOOGLE MAPS-----*/
         
     #map-wrapper {
-        height: 300px;
+        height: 400px;
         margin: 70px;
     }
     #map-wrapper h2 {
         font-size: 300%;
+        text-decoration: underline;
         float: right;
     }
     
