@@ -19,6 +19,7 @@ h1, h2, h3 {
     font-family: Girassol, Open Sans;
 }
 
+
 h2 {
     font-size: 300%;
 }
@@ -285,9 +286,75 @@ header p {
 
 
 
-/*Media queries*/
+/*------------Media queries------------*/
 
-/* For larger to medium screen size from 1200px wide and down */
+/* For small tablet screens 800px and down */
 
+@media screen and (max-width: 800px) {
 
+/*.height {
+    height: 500px;
+}  */
+    header h1 {
+        font-size: 350%;
+        margin-left: 50px;
+         
+     
+    }
+    header p {
+        font-size: 150%;
+        
+    }
+#about-us {
+    height: auto;
+}
+#about-us h2 {
 
+}
+
+#call-in {
+    height: auto;
+}
+#gallery {
+    height: auto;
+}
+
+#phone h2 {
+    font-size: 250%;
+}
+#phone h5 {
+    font-size: 100%;
+}
+#map-wrapper  h2 {
+    font-size: 250%;
+    height: auto;
+}
+
+}
+
+/* For Mobile screens 500px and down */
+
+ @media screen and (max-width: 500px) {
+
+}
+
+#phone {
+    text-align: center;
+}
+
+    #form-section {
+        border-style: none;
+    }
+
+    #phone {
+        margin: auto;
+        height: auto;
+    }
+
+    #map-wrapper {
+        text-align: center;
+        margin: auto;
+        height: auto;
+    }
+}
+ 
