@@ -41,10 +41,11 @@ header {
     min-height: 70px;
     
 }
-header  h1 {
+#logo {
     font-size: 500%;
     font-weight: bold;
     color: #ffffff;
+    text-decoration: underline;
 }
 
 header p {
@@ -174,6 +175,11 @@ header p {
     font-size: 300%;
     text-decoration: underline;
 }
+
+/*#video iframe{ 
+        max-width: 450px;
+        height: 300px; 
+} */
  
 
 
@@ -241,7 +247,7 @@ header p {
 }
 
 
-
+/*-----CONTACT DETAILS-------*/
 
 #phone {
     margin: 50px;
@@ -255,8 +261,6 @@ header p {
 #phone h5 {
     color: black;
 }
-
-/*-----CONTACT DETAILS-------*/
 
 .info > span {
     color:  #e0d9d9;
@@ -283,9 +287,6 @@ header p {
     }   
     
 
-
-
-
 /*------------Media queries------------*/
 
 /* For small tablet screens 800px and down */
@@ -308,9 +309,6 @@ header p {
 #about-us {
     height: auto;
 }
-#about-us h2 {
-
-}
 
 #call-in {
     height: auto;
@@ -318,6 +316,11 @@ header p {
 #gallery {
     height: auto;
 }
+
+*#video iframe{ 
+    max-width: 450px;
+    height: 300px; 
+} 
 
 #phone h2 {
     font-size: 250%;
@@ -334,27 +337,79 @@ header p {
 
 /* For Mobile screens 500px and down */
 
- @media screen and (max-width: 500px) {
+ /*@media screen and (max-width: 500px) {
+        
+    }
+    #logo {
+        font-size: 300%;
+        text-align: left;
+    }
+    
+    header p {
+        font-size: 100%;
+    }
 
+    #about-us h2 {
+        font-size: 200%;
+    }
+    
+    #about-us p {
+        font-size: 100%;
+    }
+        
+
+   #services{
+       height: auto;
+   }
+   #services h2 {
+    font-size: 200%;
+}
+#services h4 {
+    font-size: 100%;
 }
 
-#phone {
+#call-in {
+    height: auto
+}
+#call-in h2 {
+    font-size: 200%;
+}
+#call-in p {
+    font-size: 100%;
+}
+
+#gall-h2 {
+    font-size: 200%;
+}
+
+#video iframe{ 
+    max-width: 250px;
+    height: 150px; 
+}
+
+.get-in-touch {
+    font-size: 200%;
+}
+  #phone {
     text-align: center;
+    margin: auto;
+    height: auto;
 }
-
-    #form-section {
-        border-style: none;
-    }
-
-    #phone {
-        margin: auto;
-        height: auto;
-    }
-
-    #map-wrapper {
-        text-align: center;
-        margin: auto;
-        height: auto;
-    }
+#phone h2 {
+    font-size: 200%;
 }
+#phone h5 {
+    font-size: 90%;
+}
+ #map-wrapper {
+     text-align: center;
+      margin: auto;
+      height: auto;
+    }
+    #map-wrapper h2 {
+        font-size: 200%;
+        margin-right: 50px;
+    }
+
+} */
  
