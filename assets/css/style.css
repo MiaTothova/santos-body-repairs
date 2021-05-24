@@ -19,6 +19,10 @@ h1, h2, h3 {
     font-family: Girassol, Open Sans;
 }
 
+h4, h5, p {
+    font-family: Open Sans, sans-serif;
+}
+
 
 h2 {
     font-size: 300%;
@@ -126,6 +130,7 @@ header p {
 #social-links {
     background-image: url('../images/pexels-alexander-ant-4585185.jpg'); 
     width: 100%;
+    min-height: 70px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -176,12 +181,7 @@ header p {
     text-decoration: underline;
 }
 
-/*#video iframe{ 
-        max-width: 450px;
-        height: 300px; 
-} */
  
-
 
 /* the following two styling css code have been wrotten by A Greaves.  */
 /* code credit: https://github.com/AJGreaves/portrait-artist/blob/master/assets/css/style.css */
@@ -251,7 +251,7 @@ header p {
 
 #phone {
     margin: 50px;
-    height: 150px;
+    height: 300px;
 }
 
 #phone  h2 {
@@ -271,7 +271,7 @@ header p {
         
     #map-wrapper {
         height: 400px;
-        margin: 70px;
+        margin: 50px;
     }
     #map-wrapper h2 {
         font-size: 300%;
@@ -280,7 +280,7 @@ header p {
     }
     
     #map {
-        height: 100%;
+        height: 80%;
         width: 100%;
         border-style: inset;
         border-radius: 25px;
@@ -291,11 +291,8 @@ header p {
 
 /* For small tablet screens 800px and down */
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
 
-/*.height {
-    height: 500px;
-}  */
     header h1 {
         font-size: 350%;
         margin-left: 50px;
@@ -318,98 +315,53 @@ header p {
 }
 
 *#video iframe{ 
-    max-width: 450px;
-    height: 300px; 
+    max-width: 300px;
+    height: 200px; 
 } 
+
+#phone {
+    height: auto;
+    text-align: center;
+}
 
 #phone h2 {
     font-size: 250%;
 }
-#phone h5 {
-    font-size: 100%;
+
+#map-wrapper {
+    height: auto;
 }
+
 #map-wrapper  h2 {
+  float: left;
+  margin-left: 20px;
     font-size: 250%;
     height: auto;
 }
+
+#map {
+   height: auto;
+    width: 100%; 
+}   
 
 }
 
 /* For Mobile screens 500px and down */
 
- /*@media screen and (max-width: 500px) {
+ @media only screen and (max-width: 425px) {
         
-    }
-    #logo {
-        font-size: 300%;
-        text-align: left;
-    }
-    
-    header p {
-        font-size: 100%;
-    }
-
-    #about-us h2 {
-        font-size: 200%;
-    }
-    
-    #about-us p {
-        font-size: 100%;
-    }
-        
-
    #services{
        height: auto;
-   }
-   #services h2 {
-    font-size: 200%;
-}
-#services h4 {
-    font-size: 100%;
-}
+     }
+ 
 
-#call-in {
+#call-in{
     height: auto
 }
-#call-in h2 {
-    font-size: 200%;
-}
-#call-in p {
-    font-size: 100%;
-}
 
-#gall-h2 {
-    font-size: 200%;
-}
-
-#video iframe{ 
-    max-width: 250px;
-    height: 150px; 
-}
-
-.get-in-touch {
-    font-size: 200%;
-}
-  #phone {
-    text-align: center;
-    margin: auto;
+#gallery {
     height: auto;
 }
-#phone h2 {
-    font-size: 200%;
-}
-#phone h5 {
-    font-size: 90%;
-}
- #map-wrapper {
-     text-align: center;
-      margin: auto;
-      height: auto;
-    }
-    #map-wrapper h2 {
-        font-size: 200%;
-        margin-right: 50px;
-    }
 
-} */
+}
  
