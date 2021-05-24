@@ -1,367 +1,369 @@
-@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Open+Sans&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Girassol&family=Open+Sans&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+	margin: 0;
+	padding: 0;
+	border: none;
 }
+
 body {
-    font-family: Girassol, Open Sans;
-    font-weight: 400;
-    line-height: 1.5;
-    padding: 0;
-    margin: 0;
-    color: #F0F8FF;
-    background-color: rgba(176, 223, 7, 0.9) !important;
+	font-family: Girassol, Open Sans;
+	font-weight: 400;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	color: #f0f8ff;
+	background-color: rgba(223, 32, 7, 0.9) !important;
 }
 
-h1, h2, h3 {
-    font-family: Girassol, Open Sans;
+h1,
+h2,
+h3 {
+	font-family: Girassol, Open Sans;
 }
 
-h4, h5, p {
-    font-family: Open Sans, sans-serif;
+h4,
+h5,
+p {
+	font-family: Open Sans, sans-serif;
 }
-
 
 h2 {
-    font-size: 300%;
+	font-size: 300%;
 }
+
 .text-center {
-    text-align: center;
+	text-align: center;
 }
+
+
 /* -----------Header------------- */
 
 #home {
-    background: url('../images/pexels-alexander-ant-4585185.jpg') no-repeat center center;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    overflow: hidden; 
+	background: url("../images/pexels-alexander-ant-4585185.jpg") no-repeat center center;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	overflow: hidden;
 }
+
 header {
-    padding: top 30px;
-    min-height: 70px;
-    
+	padding: top 30px;
+	min-height: 70px;
 }
+
 #logo {
-    font-size: 500%;
-    font-weight: bold;
-    color: #ffffff;
-    text-decoration: underline;
+	font-size: 500%;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: underline;
 }
 
 header p {
-    color: #ffffff;
-    font-size: 200%;
-    font-weight: bold;
+	color: #ffffff;
+	font-size: 200%;
+	font-weight: bold;
 }
+
+
 /*------------HOME SECTION------------*/
 
 #about-us {
-    height: 300px;
+	height: 300px;
 }
+
 #about-us h2 {
-    font-size: 300%;
-    margin-top: 20px;
-    text-decoration: underline;
-  
+	font-size: 300%;
+	margin-top: 20px;
+	text-decoration: underline;
 }
 
 #about-us p {
-    font-size: 150%;
-    color: #F0F8FF;
-    margin-top: 20px;
+	font-size: 150%;
+	color: #f0f8ff;
+	margin-top: 20px;
 }
+
 
 /*-------Services section */
 
 #services {
-    background: url('../images/bmw-header-photo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    width: 100%;
-    height: 700px;
-    overflow: hidden;
-    margin: 0 10 0 10;
+	background: url("../images/bmw-header-photo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+	height: 700px;
+	overflow: hidden;
+	margin: 0 10 0 10;
 }
 
 #services .container {
-    background-color: rgba(180, 180, 180, 0.5);
-    margin-top: 60px;
-    
+	background-color: rgba(180, 180, 180, 0.5);
+	margin: 0 auto;
+    background-size: auto;
 }
 
 #services h2 {
-    font-size: 400%;
-    color:inherit;
-    text-decoration: underline;
+	font-size: 400%;
+	color: inherit;
+	text-decoration: underline;
 }
-#services h4 {
-    font-size: 200%;
-    padding: 10px;
-    color:#F0F8FF;
-    font-weight: bold;
+
+#services li {
+	font-size: 200%;
+	padding: 10px;
+	color: #f0f8ff;
+	font-weight: bolder;
+    list-style-type: none;
 }
 
 
 /* Call in service */
 
-
 #call-in {
-    width: 100%;
-    height: 300px;
-    margin-top: 20px;
+	width: 100%;
+	height: 300px;
+	margin-top: 20px;
 }
+
 #call-in h2 {
-    font-size: 300%;
-    text-decoration: underline;
+	font-size: 300%;
+	text-decoration: underline;
 }
+
 #call-in p {
-    font-size: 150%;
-    color: #F0F8FF;
-    margin-top: 20px;
+	font-size: 150%;
+	color: #f0f8ff;
+	margin-top: 20px;
 }
+
+#book-now {
+    margin: 0 auto;
+}
+
 
 /* Footer */
+
 #social-links {
-    background-image: url('../images/pexels-alexander-ant-4585185.jpg'); 
-    width: 100%;
-    min-height: 70px;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    overflow: hidden;
+	background-image: url("../images/pexels-alexander-ant-4585185.jpg");
+	width: 100%;
+	min-height: 70px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	overflow: hidden;
 }
 
 .social-networks {
-    text-align: center;
+	text-align: center;
 }
 
-.social-networks > li {
-    display: inline;
+.social-networks>li {
+	display: inline;
 }
+
 .social-networks i {
-    font-size: 250%;
-   margin-top: 10px;
-   padding: 5%;
-    color: #e0d9d9;
-    background-color: rgba(00, 00, 00, 0.2);
+	font-size: 250%;
+	margin-top: 10px;
+	padding: 5%;
+	color: #e0d9d9;
+	background-color: rgba(00, 00, 00, 0.2);
 }
 
 .rights {
-    color: #e0d9d9;
+	color: #e0d9d9;
 }
 
 
 /*GALLERY PAGE IMAGES*/
+
 #gallery {
-    height: 650px;
+	height: 650px;
 }
 
-#gallery > div {
-    display: inline-block;
+#gallery>div {
+	display: inline-block;
 }
 
 #gall-h2 {
-    font-size: 300%;
-    margin-top: 20px;
-    text-decoration: underline;
+	font-size: 300%;
+	margin-top: 20px;
+	text-decoration: underline;
 }
 
 #video {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
-#video > h2 {
-    font-size: 300%;
-    text-decoration: underline;
+#video>h2 {
+	font-size: 300%;
+	text-decoration: underline;
 }
 
- 
 
 /* the following two styling css code have been wrotten by A Greaves.  */
+
+
 /* code credit: https://github.com/AJGreaves/portrait-artist/blob/master/assets/css/style.css */
+
 .gallery-thumbnail {
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-    border-radius: 5px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	-webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	border-radius: 5px;
 }
 
+
 /* creates pleasing illusion of hovered image being raised up from the screen */
+
 .gallery-thumbnail:hover {
-    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
-    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
+	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
 }
 
 .responsive {
-    height: 158px;
-    width: 100%;
-    max-width: 240px;
+	height: 158px;
+	width: 100%;
+	max-width: 240px;
 }
+
 
 /*-----CONTACT US PAGE-----*/
 
- #form-section {
-    margin: 0 auto;
-    margin-top: 20px;
-    border-style: inset;
-    border-radius: 25px;
-    border-color: #e0d9d9;
-} 
-
-#form {
-    margin: 0 auto;
-  
+#form-section {
+	margin: 0 auto;
+	margin-top: 20px;
+	border-style: inset;
+	border-radius: 25px;
+	border-color: #e0d9d9;
 }
 
-#form .time {
-    margin: 0 auto;
+.middle {
+	margin: 0 auto;
 }
 
-#form .button {
-    margin: 0 auto;
+.time {
+	margin: 0 auto;
 }
 
 .get-in-touch {
-    font-size: 300%;
-    text-decoration: underline;
-    
+	font-size: 300%;
+	text-decoration: underline;
 }
-
 
 .radio {
-  margin: 0 auto;
-  
+	margin: 0 auto;
 }
 
-.submit {
-    text-align: center;
-    padding: 10px;
- 
+#submit {
+    margin: 0 auto;
 }
 
 
 /*-----CONTACT DETAILS-------*/
 
 #phone {
-    margin: 50px;
-    height: 300px;
+	margin: 50px;
+	height: 300px;
 }
 
-#phone  h2 {
-    font-size: 300%;
-    text-decoration: underline;
+#phone h2 {
+	font-size: 300%;
+	text-decoration: underline;
 }
+
 #phone h5 {
-    color: black;
+	color: black;
 }
 
-.info > span {
-    color:  #e0d9d9;
-
+#phone h4 {
+	color: #e0d9d9;
 }
+
 
 /*------ GOOGLE MAPS-----*/
-        
-    #map-wrapper {
-        height: 400px;
-        margin: 50px;
-    }
-    #map-wrapper h2 {
-        font-size: 300%;
-        text-decoration: underline;
-        float: right;
-    }
-    
-    #map {
-        height: 80%;
-        width: 100%;
-        border-style: inset;
-        border-radius: 25px;
-    }   
-    
+
+#map-wrapper {
+	height: 400px;
+	margin: 50px;
+}
+
+#map-wrapper h2 {
+	font-size: 300%;
+	text-decoration: underline;
+	float: right;
+}
+
+#map {
+	height: 80%;
+	width: 100%;
+	border-style: inset;
+	border-radius: 25px;
+}
+
 
 /*------------Media queries------------*/
+
 
 /* For small tablet screens 800px and down */
 
 @media only screen and (max-width: 800px) {
-
-    header h1 {
-        font-size: 350%;
-        margin-left: 50px;
-         
-     
-    }
-    header p {
-        font-size: 150%;
-        
-    }
-#about-us {
-    height: auto;
+	header h1 {
+		font-size: 350%;
+		margin-left: 50px;
+	}
+	header p {
+		font-size: 150%;
+	}
+	#about-us {
+		height: auto;
+	}
+	#call-in {
+		height: auto;
+	}
+	#gallery {
+		height: auto;
+	}
+	*#video iframe {
+		max-width: 300px;
+		height: 200px;
+	}
+	#phone {
+		height: auto;
+		text-align: center;
+	}
+	#phone h2 {
+		font-size: 250%;
+	}
+	#map-wrapper {
+		height: auto;
+	}
+	#map-wrapper h2 {
+		float: left;
+		margin-left: 20px;
+		font-size: 250%;
+		height: auto;
+	}
+	#map {
+		height: auto;
+		width: 100%;
+	}
 }
 
-#call-in {
-    height: auto;
-}
-#gallery {
-    height: auto;
-}
-
-*#video iframe{ 
-    max-width: 300px;
-    height: 200px; 
-} 
-
-#phone {
-    height: auto;
-    text-align: center;
-}
-
-#phone h2 {
-    font-size: 250%;
-}
-
-#map-wrapper {
-    height: auto;
-}
-
-#map-wrapper  h2 {
-  float: left;
-  margin-left: 20px;
-    font-size: 250%;
-    height: auto;
-}
-
-#map {
-   height: auto;
-    width: 100%; 
-}   
-
-}
 
 /* For Mobile screens 500px and down */
 
- @media only screen and (max-width: 425px) {
-        
-   #services{
-       height: auto;
-     }
- 
-
-#call-in{
-    height: auto
+@media only screen and (max-width: 425px) {
+	#services {
+		height: auto;
+	}
+	#call-in {
+		height: auto;
+	}
+	#gallery {
+		height: auto;
+	}
 }
-
-#gallery {
-    height: auto;
-}
-
-}
- 
