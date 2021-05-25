@@ -294,7 +294,12 @@ header p {
 #map-wrapper h2 {
 	font-size: 300%;
 	text-decoration: underline;
-	float: right;
+	float: left;
+}
+
+#address {
+	float:left;
+	color: #ffffff;
 }
 
 #map {
@@ -321,6 +326,12 @@ header p {
 	#about-us {
 		height: auto;
 	}
+
+
+    #services {
+	height: auto;
+    }
+
 	#call-in {
 		height: auto;
 	}
@@ -347,6 +358,10 @@ header p {
 		font-size: 250%;
 		height: auto;
 	}
+	#address {
+		float: left;
+	}
+
 	#map {
 		height: auto;
 		width: 100%;
