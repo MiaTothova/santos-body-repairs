@@ -287,7 +287,7 @@ header p {
 /*------ GOOGLE MAPS-----*/
 
 #map-wrapper {
-	height: 400px;
+	height: 600px;
 	margin: 50px;
 }
 
@@ -350,11 +350,11 @@ header p {
 		font-size: 250%;
 	}
 	#map-wrapper {
-		height: auto;
+		height: 250px;
+		margin: 50px;
 	}
 	#map-wrapper h2 {
 		float: left;
-		margin-left: 20px;
 		font-size: 250%;
 		height: auto;
 	}
@@ -381,4 +381,9 @@ header p {
 	#gallery {
 		height: auto;
 	}
+
+	#map-wrapper {
+		height: 300px;
+	}
+
 }
