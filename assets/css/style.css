@@ -92,7 +92,7 @@ header p {
 /*-------Services section */
 
 #services {
-	background: url("../images/gallery/bmw-header-photo.jpg");
+	background: url("../images/bmw-header-photo.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -151,7 +151,7 @@ header p {
 /* Footer */
 
 #social-links {
-	background-image: url("../images/gallery/pexels-alexander-ant-4585185.jpg");
+	background-image: url("../images/pexels-alexander-ant-4585185.jpg");
 	width: 100%;
 	min-height: 70px;
 	background-size: cover;
