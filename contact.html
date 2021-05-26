@@ -14,12 +14,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
     <title>Santos Body Repairs</title>
 </head>
 
 <body>
-
     <header id="home">
         <nav class="navbar navbar-expand-lg navbar-dark background-color: #e3f2fd;">
             <div class="container-fluid">
@@ -61,87 +59,82 @@
     </header>
 
     <!--Code Snippet:-Took basic form structure for users to get in touch and customised with own content from: https://getbootstrap.com/docs/4.0/components/forms/#form-groups-->
-    <section id="form-section" class="col-md-8">
-        <h2 class="text-center get-in-touch">Get In Touch</h2>
-        <form class="contact-form" action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
-            <div class="form-row">
-                <div class="col-sm-4 col-md-8 col-lg-8 col-xl-10 middle">
-                    <label for="fname">First name</label>
-                    <input type="text" class="form-control" id="fname" placeholder="First name" required />
+    <main class="container">
+        <section id="form-section" class="col-md-8">
+            <h2 class="text-center get-in-touch">Get In Touch</h2>
+            <form class="contact-form p-3" action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
+                <div class="mb-3">
+                    <label for="firstname">First name</label>
+                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First name" required />
                 </div>
-                <div class="col-sm-4 col-md-8 col-lg-8 col-xl-10 middle">
-                    <label for="lname">Last Name</label>
-                    <input type="text" class="form-control" id="lname" placeholder="Last name" required />
+                <div class="mb-3">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last name" required />
                 </div>
-            </div>
-            <div class="col-sm-4 col-md-8 col-lg-8 col-xl-10 middle">
-                <label for="inputEmail3">Email</label>
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required />
-            </div>
-            <fieldset class="form-group col-sm-4 col-md-8 col-lg-8 col-xl-10 time">
-                <legend class="col-form-label col-sm-4 col-md-8 col-lg-8 col-xl-10">Best time to contact you?
-                </legend>
-                <div class="form-check button radio col-sm-4 col-md-8 col-lg-8 col-xl-10">
-                    <input class="form-check-input" type="radio" name="contact-time" id="gridRadios2" value="2pm-5pm"
-                        required />
-                    <label class="form-check-label" for="gridRadios2">
-                        After Lunch (Between 2pm and 5pm)
-                    </label>
+                <div class="mb-3">
+                    <label for="inputEmail3">Email</label>
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required />
                 </div>
-                <div class="form-check button radio col-sm-4 col-md-8 col-lg-8 col-xl-10">
-                    <input class="form-check-input" type="radio" name="contact-time" id="gridRadios1"
-                        value="9am-12pm" />
-                    <label class="form-check-label" for="gridRadios1">
-                        Morning (Between 9am and 12pm)
-                    </label>
+                <fieldset class="form-group mb-3 time">
+                    <legend class="col-form-label">Best time to contact you?
+                    </legend>
+                    <div class="form-check button radio">
+                        <input class="form-check-input" type="radio" name="contactTimeAfterLunch" id="contactTimeAfterLunch"
+                            value="2pm-5pm" required />
+                        <label class="form-check-label" for="contactTimeAfterLunch">
+                            After Lunch (Between 2pm and 5pm)
+                        </label>
+                    </div>
+                    <div class="form-check button radio">
+                        <input class="form-check-input" type="radio" name="contactTimeMorning" id="contactTimeMorning"
+                            value="9am-12pm" />
+                        <label class="form-check-label" for="contactTimeMorning">
+                            Morning (Between 9am and 12pm)
+                        </label>
+                    </div>
+                </fieldset>
+                <div class="form-group mb-3">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" placeholder="Your message here" id="message" name="message"
+                        rows="3" required></textarea>
                 </div>
-            </fieldset>
-            <div class="form-group col-sm-4 col-md-8 col-lg-8 col-xl-10 middle">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" placeholder="Your message here" id="exampleFormControlTextarea1" rows="3"
-                    required></textarea>
-            </div>
-            <div class="form-group col-sm-4 col-md-12 col-lg-12 col-xl-12 text-center">
-                <button type="submit" class="btn btn-dark mb-2 mt-2">Submit</button>
-            </div>
-        </form>
-    </section>
+                <div class="form-group text-center">
+                    <button type="submit" class="btn btn-dark mt-2">Submit</button>
+                </div>
+            </form>
+        </section>
 
-    <section id="phone">
-        <h2>Contact Details</h2>
-        <div class="info">
-            <div>
-                <h4><i class="fas fa-phone"></i>Phone</h4>
-                <h5>065 683 8767</h5>
+        <section id="phone" class="row text-center">
+            <h2>Contact Details</h2>
+            <div class="info" class="col">
+                <div>
+                    <h4><i class="fas fa-phone"></i>Phone</h4>
+                    <h5>065 683 8767</h5>
+                </div>
+                <div>
+                    <h4><i class="fab fa-whatsapp"></i>WhatsApp</h4>
+                    <h5>087 987 6543</h5>
+                </div>
+                <div>
+                    <h4><i class="fas fa-at"></i>Email</h4>
+                    <h5>santosbodyrepairs@gmail.com</h5>
+                </div>
             </div>
-            <div>
-                <h4><i class="fab fa-whatsapp"></i>WhatsApp</h4>
-                <h5>087 987 6543</h5>
-            </div>
-            <div>
-                <h4><i class="fas fa-at"></i>Email</h4>
-                <h5>santosbodyrepairs@gmail.com</h5>
-            </div>
-        </div>
-    </section>
+        </section>
 
-
-    <section id="map-wrapper">
-        <div>
+        <section id="map-wrapper" class="row text-center">
             <h2><i class="fas fa-map-marker-alt"></i>Where to Find Us</h2>
-        </div>
-        <div id="address" class="col-sm-12 col-md-12">
-            <h5>Labane Service Station,
-                <br>Labane,
-                <br>Co. Galway
-            </h5>
-        </div>
-        <iframe id="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26810.622835505575!2d-8.839647727304037!3d53.14264570327258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b836ffc596c81%3A0xae6f412de3e50e3e!2sCentra%20Labane%20Service%20Station!5e1!3m2!1sen!2sie!4v1621538001975!5m2!1sen!2sie"
-            width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
-    </section>
-
-
+            <div id="address" class="col">
+                <h5>Labane Service Station,
+                    <br>Labane,
+                    <br>Co. Galway
+                </h5>
+            </div>
+            <iframe id="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26810.622835505575!2d-8.839647727304037!3d53.14264570327258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b836ffc596c81%3A0xae6f412de3e50e3e!2sCentra%20Labane%20Service%20Station!5e1!3m2!1sen!2sie!4v1621538001975!5m2!1sen!2sie"
+                width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
 
     <footer id="social-links">
         <div class="container">
@@ -168,11 +161,8 @@
                 </div>
             </div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     </footer>
+
     <script src="https://kit.fontawesome.com/66439a723b.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
