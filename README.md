@@ -2,6 +2,9 @@
 
 [View the live project here.](https://miatothova.github.io/santos-body-repairs/index.html)
 
+![alt text](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/am-i-responsive.png")
+The image is from [Am I responsive?](http://ami.responsivedesign.is/)
+
 Santos Body Repairs is a website designed to showcase and advertise this very successful business located in Co. Galway.
 Its main goal is to provide useful information on the services it provides, before and after photos of past projects, opening and closing times, location, and a contact form. 
 
