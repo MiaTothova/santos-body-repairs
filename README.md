@@ -5,6 +5,8 @@
 ![alt text](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/am-i-responsive.png")
 The image is from [Am I responsive?](http://ami.responsivedesign.is/)
 
+
+
 Santos Body Repairs is a website designed to showcase and advertise this very successful business located in Co. Galway.
 Its main goal is to provide useful information on the services it provides, before and after photos of past projects, opening and closing times, location, and a contact form. 
 
@@ -95,9 +97,29 @@ We are featuring the contact details centered right under the contact form so th
 * Careers Page where vacancies could get advertised and maybe an opportunity to enroll in a partnership program. 
 
 ## Technologies Used
-
+* [Balsamiq](https://balsamiq.com/) I used the low-fidelity wireframing tool to create structure of the website layout.
+* [Gitpod](https://gitpod.io/workspaces)I used this developer to write the code for this website.
+* [Github](https://github.com/) Was used to host my code that was created and pushed to Gitpod.
+* [Google Fonts](https://fonts.google.com/) Was used to style the website's fonts.
+* [Bootstrap](https://getbootstrap.com/) Was used to make the website responsive in various platforms.
+* [Fontawesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) The use of few icons from this website were used to make the website more appealing.
+* [Fancybox](https://fancyapps.com/fancybox/3/)his was used to help create the website's gallery.
+* [jQuery](https://jquery.com/) The website used jQuery to supply to JavaScript linked needed to the Fancybox gallery.
+* [TinyPNG](https://tinypng.com/)I used this website to compress my images to improve website loading times.
+* [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) Was use to check the markup of the web documents in HTLM.
+* [W3C jigsaw Validation Service](https://jigsaw.w3.org/css-validator/validator) Was used to chech and validate the CSS in my project.
+* [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)Was used to inspect any issues and inspect the responsiveness of the website.
+* [a11y Contrast Checker](https://color.a11y.com/) This was used to make sure that the project meets visual standards.
 
 ## Testing
+
+
+## Validation
+
+![alt text]( "Logo Title Text 1")
+![alt text]( "Logo Title Text 1")
+![alt text]( "Logo Title Text 1")
+![alt text]( "Logo Title Text 1")
 
 ## Compatibility
 
