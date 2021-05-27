@@ -167,7 +167,7 @@ All written content has been created by me. Any media and videos have been sourc
 ## Deployment
 
 1 
-![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.1.png)
+![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/step.1.png)
  
 2
 ![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/step-2.jpg) 
