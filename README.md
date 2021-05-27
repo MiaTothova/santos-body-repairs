@@ -165,21 +165,37 @@ All written content has been created by me. Any media and videos have been sourc
 * CSS code for shadows and hover responsiveness of gallery images was originally taken from Portrait Artist by A Greaves. [View Here.](https://ajgreaves.github.io/portrait-artist/index.html)
 
 ## Deployment
+This project was developed using Gitpod, committed to git and pushed to GitHub using git commands. You can clone this repository using [https://github.com/MiaTothova/santos-body-repairs](https://github.com/MiaTothova/santos-body-repairs)
 
-1 
-![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/step.1.png)
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1.  select the Settings tab in my GitHub repository. 
+
+![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/step-1.jpg)
  
-2
+2. Find GitHub Pages in the menu.
 ![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/step-2.jpg) 
 
-3
+3. Choose the Master branch and save. After this refresh the page.
 ![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/step-3.jpg)
 
-4
+4. After the page re-freshed, I got a message "ready to be published".
 ![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/step-4.jpg)
 
-5
+5. After re-freshing after few seconds I got a "published" message.
 ![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/step-5.jpg)
+
+6. Clicking on the link takes us to the deployed website.
+![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.1.png)
+
+
+
+
+
+
+
+
+
 
 
 ## Acknowledgement
