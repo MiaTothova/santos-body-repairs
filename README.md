@@ -60,8 +60,13 @@ The Home page introduces the visitor to the business and gives it the main infor
 
 (ADD WIFE-FRAMES HERE)
 
-Inline-style: 
-![web view](https://github.com/MiaTothova/santos-body-repairs/tree/master/wire-frames/web-view.png "Logo Title Text 1")
+[Web view](https://github.com/MiaTothova/santos-body-repairs/blob/master/wire-frames/web-view.png)
+
+[Web view](https://github.com/MiaTothova/santos-body-repairs/blob/master/wire-frames/web-view.png)
+
+[Web view](https://github.com/MiaTothova/santos-body-repairs/blob/master/wire-frames/web-view.png)
+
+
 
 
 ### The Surface
@@ -86,11 +91,13 @@ The Gallery page features images in 4 columns wide for laptop and desktop, 2 for
 Here we are greeted with a Get in touch form. Its purpose is to allow the customer to receive a call back from the business if they are unable to reach the business using the contact details provided.
 We are featuring the contact details centered right under the contact form so that it hits the visitor straight in the eye and avoids them looking for it on the page. Under this is the Where to find us section containing the garage's address and a google map pinpointing its location.
 
-
-
 ### Future features
+* Option to choose the language of the website from English to Portuguese. As the business owner is a Native Brazilian speaker, this would allow catering to the Portuguese-speaking community located around Co. Galway who maybe do not have any English to initiate contact.
+* Showcase other projects that the business is doing like tractors, vans, and busses. This content was not available at the moment.
+* Careers Page where vacancies could get advertised and maybe an opportunity to enroll in a partnership program. 
 
 ## Technologies Used
+
 
 ## Testing
 
