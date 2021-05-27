@@ -166,6 +166,21 @@ All written content has been created by me. Any media and videos have been sourc
 
 ## Deployment
 
+1 
+[](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/step-1.jpg)
+ 
+2
+[](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/step-2.jpg) 
+
+3
+[](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/step-3.jpg)
+
+4
+[](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/step-4.jpg)
+
+5
+[](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/step-5.jpg)
+
 
 ## Acknowledgement
 I decided to make this website for my partner who owns a body repairs business in Co. Galway. The idea behind this website is to showcase his hard work ethic and advertise his business even more.
