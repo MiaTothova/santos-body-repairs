@@ -12,9 +12,9 @@ Its main goal is to provide useful information on the services it provides, befo
 
 #### The Business goals of the website are:
 * To increase brand awareness.
+* To Increase clientel.
 * To encourage potential clients to make a contact.
-*
-*
+*  To Showcase the garage's skills and reability.
 #### The customers visit the website to:
 * To find important and useful information about the business.
 * To find an affordable and reliable garage to fix their vehicle.
@@ -119,7 +119,6 @@ We are featuring the contact details centered right under the contact form so th
 
 ![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.1.png)
 
-
 2. As a business/car owner, I want to find whether the garage is trustworthy and reputable by seeing what previous projects they worked on.
 ![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.2.png)
 * The user can view past projects in the gallery page. They can then decide whether the business is for them.
@@ -136,6 +135,10 @@ We are featuring the contact details centered right under the contact form so th
 5. As a business/visitor, I want to be able to find the contact information and location to get the information needed to contact and vissit the garage.
 ![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.5.png)
 * On the Contact Us page, the user is greeted with contact information, address and a google map pinpointing the location. When on a mobile device the google map can be used with gps to brig the user to the location.
+
+### Adicional Testing
+
+I continuasly used dev tools to inspect my website and check if its responsive it in diferent sizes. Everything looked perfect untill after deployment. When viewing in 320px small mobile devices in dev tools 
 
 ## Validation
 
