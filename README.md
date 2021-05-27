@@ -41,9 +41,9 @@ All without providing too much information and being too overwhelming.
 ### User Stories
 1. As a new visitor, I want to easily navigate the site to find whether the garage is the best place for the job on my car.
 2. As a business/car owner, I want to find whether the garage is trustworthy and reputable by seeing what previous projects they worked on.
-3. As an interested client, I want to be able to contact the garage easily.
+3. As an interested client/business, I want to be able to contact the garage easily.
 4. As a potential client, I would like to learn more about the businesses works and get validation through their history and presence in their social media accounts.
-5. As a visitor, I want to be able to find the contact information and location to get the information needed to contact and vissit the garage.
+5. As a business/visitor, I want to be able to find the contact information and location to get the information needed to contact and vissit the garage.
 
 ### The Scope
 To achieve my goal, I included the following features my website:
@@ -113,22 +113,28 @@ We are featuring the contact details centered right under the contact form so th
 
 ## Testing
 1. As a new visitor, I want to easily navigate the site to find whether the garage is the best place for the job on my car.
+* The user can navigate the website through the navigation bar.
+* The logo will take the user back to the home page.
+
 ![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.1.png)
 
 
 2. As a business/car owner, I want to find whether the garage is trustworthy and reputable by seeing what previous projects they worked on.
 ![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.2.png)
+* The user can view past projects in the gallery page. They can then decide whether the business is for them.
 
-3. As an interested client, I want to be able to contact the garage easily.
+3. As an interested client/business, I want to be able to contact the garage easily.
 ![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.3.png)
+* In the Contact Us page contact form and contact details are all centered so that they hit the users focus when entering the site.
 
-4. As a potential client, I would like to learn more about the businesses works and get validation through their history and presence in their social media accounts.
+4. As a potential client, I would like to learn more about the businesses services and get validation through their history and presence in their social media accounts.
 ![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.4.png)
+* On the Home page, the user can see a list of services provided.
+* In the footer on every page, centered are the social media icons. When clicked, they take the user to a specific social media account.
 
-5. As a visitor, I want to be able to find the contact information and location to get the information needed to contact and vissit the garage.
+5. As a business/visitor, I want to be able to find the contact information and location to get the information needed to contact and vissit the garage.
 ![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.5.png)
-
-
+* On the Contact Us page, the user is greeted with contact information, address and a google map pinpointing the location. When on a mobile device the google map can be used with gps to brig the user to the location.
 
 ## Validation
 
@@ -138,8 +144,9 @@ We are featuring the contact details centered right under the contact form so th
 
 ![contrast validation]( https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/color-contrast.png)
 
-
 ## Compatibility
+
+
 
 ## Deployment
 
