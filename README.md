@@ -58,16 +58,11 @@ To achieve my goal, I included the following features my website:
 The website consists of 3 pages. Home, Gallery, and Contact Us.
 The Home page introduces the visitor to the business and gives it the main information needed. The Gallery shows the visitor past projects and helps the visitor identify if this business is right for them. Contact Us page allows the visitors to fill out a contact form if they do not wish to use the contact details provided. Please note that the finished website has some layout changes. Wireframes were used to give me just a basic idea.
 
-(ADD WIFE-FRAMES HERE)
+* [Web view](https://github.com/MiaTothova/santos-body-repairs/blob/master/wire-frames/web-view.png)
 
-[Web view](https://github.com/MiaTothova/santos-body-repairs/blob/master/wire-frames/web-view.png)
+* [Tablet view](https://github.com/MiaTothova/santos-body-repairs/blob/master/wire-frames/tablet-view.png)
 
-[Web view](https://github.com/MiaTothova/santos-body-repairs/blob/master/wire-frames/web-view.png)
-
-[Web view](https://github.com/MiaTothova/santos-body-repairs/blob/master/wire-frames/web-view.png)
-
-
-
+* [Phone view](https://github.com/MiaTothova/santos-body-repairs/blob/master/wire-frames/phone-view.png)
 
 ### The Surface
 ADD TEXT HERE.................
