@@ -167,7 +167,7 @@ All written content has been created by me. Any media and videos have been sourc
 ## Deployment
 
 
-## acknowledgement
+## Acknowledgement
 I decided to make this website for my partner who owns a body repairs business in Co. Galway. The idea behind this website is to showcase his hard work ethic and advertise his business even more.
  I received my visual inspiration from:
  *  [Carcosmetix.ie](https://carcosmetix.ie/gallery/)
