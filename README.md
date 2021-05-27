@@ -110,6 +110,7 @@ We are featuring the contact details centered right under the contact form so th
 * [W3C jigsaw Validation Service](https://jigsaw.w3.org/css-validator/validator) Was used to chech and validate the CSS in my project.
 * [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)Was used to inspect any issues and inspect the responsiveness of the website.
 * [a11y Contrast Checker](https://color.a11y.com/) This was used to make sure that the project meets visual standards.
+* [Google Maps](https://www.google.ie/maps/@53.395456,-6.1800448,12z)This has been used to allocate the map to the Contact Us page.
 
 ## Testing
 1. As a new visitor, I want to easily navigate the site to find whether the garage is the best place for the job on my car.
@@ -145,14 +146,35 @@ We are featuring the contact details centered right under the contact form so th
 ![contrast validation]( https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/color-contrast.png)
 
 ## Compatibility
+To ensure that a broad range of users can successfully view/use the site, I tested it across all major browsers on both desktop and mobile.
+* Chrome
+* Mozila Firefox
+* Edge
+* Internet explorer
+* Safari
 
+## Credits
+ ### Content
+All written content has been created by me. Any media and videos have been sourced by :
+* [Pexels](pexels.com)
+* [Carcosmetix.ie](https://carcosmetix.ie/gallery/)
+* [Google Images](https://www.google.com/imghp?hl=en)
+* [Youtube](https://www.youtube.com/)
 
+### Code
+* CSS code for shadows and hover responsiveness of gallery images was originally taken from Portrait Artist by A Greaves. [View Here.](https://ajgreaves.github.io/portrait-artist/index.html)
 
 ## Deployment
 
-## Credits
 
 ## acknowledgement
+I decided to make this website for my partner who owns a body repairs business in Co. Galway. The idea behind this website is to showcase his hard work ethic and advertise his business even more.
+ I received my visual inspiration from:
+ *  [Carcosmetix.ie](https://carcosmetix.ie/gallery/)
+ * [https://bodyworxrepair.com/](https://bodyworxrepair.com/)
+ * [https://autocentraluae.com/Service/body-repairs/](https://autocentraluae.com/Service/body-repairs/)
+
+ I just want to say big thank you to my mentor Guido Cecilio Garcia Bernal guided me throughout this project and to Kasia Bogucka our tutor at Code Institute, who helped me with problem-solving.
 
 
 
