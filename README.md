@@ -43,7 +43,7 @@ All without providing too much information and being too overwhelming.
 2. As a business/car owner, I want to find whether the garage is trustworthy and reputable by seeing what previous projects they worked on.
 3. As an interested client, I want to be able to contact the garage easily.
 4. As a potential client, I would like to learn more about the businesses works and get validation through their history and presence in their social media accounts.
-5. As a visitor, I want to be able to find the contact page easily to get the information I need and contact the garage.
+5. As a visitor, I want to be able to find the contact information and location to get the information needed to contact and vissit the garage.
 
 ### The Scope
 To achieve my goal, I included the following features my website:
@@ -112,6 +112,21 @@ We are featuring the contact details centered right under the contact form so th
 * [a11y Contrast Checker](https://color.a11y.com/) This was used to make sure that the project meets visual standards.
 
 ## Testing
+1. As a new visitor, I want to easily navigate the site to find whether the garage is the best place for the job on my car.
+![alt text]()
+
+
+2. As a business/car owner, I want to find whether the garage is trustworthy and reputable by seeing what previous projects they worked on.
+
+
+3. As an interested client, I want to be able to contact the garage easily.
+
+
+4. As a potential client, I would like to learn more about the businesses works and get validation through their history and presence in their social media accounts.
+
+
+5. As a visitor, I want to be able to find the contact information and location to get the information needed to contact and vissit the garage.
+
 
 
 ## Validation
