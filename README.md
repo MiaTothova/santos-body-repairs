@@ -2,7 +2,7 @@
 
 [View the live project here.](https://miatothova.github.io/santos-body-repairs/index.html)
 
-![alt text](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/am-i-responsive.png")
+![alt text](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/am-i-responsive.png)
 The image is from [Am I responsive?](http://ami.responsivedesign.is/)
 
 
@@ -116,10 +116,12 @@ We are featuring the contact details centered right under the contact form so th
 
 ## Validation
 
-![alt text]( "Logo Title Text 1")
-![alt text]( "Logo Title Text 1")
-![alt text]( "Logo Title Text 1")
-![alt text]( "Logo Title Text 1")
+![html validation]( https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/html-validation.png)
+
+![css validation]( https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/css-validation.png)
+
+![contrast validation]( https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/color-contrast.png)
+
 
 ## Compatibility
 
