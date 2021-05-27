@@ -70,7 +70,7 @@ The Home page introduces the visitor to the business and gives it the main infor
 * [Phone view](https://github.com/MiaTothova/santos-body-repairs/blob/master/wire-frames/phone-view.png)
 
 ### The Surface
-ADD TEXT HERE.................
+The logo is centered in the background and the background image of the color spill was chosen to represent the cans of paint used every single day.  Image having a black background, the business owner has chosen a red body background with black and white text. 
 
 ## Features
 
@@ -187,15 +187,6 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 
 6. Clicking on the link takes us to the deployed website.
 ![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.1.png)
-
-
-
-
-
-
-
-
-
 
 
 ## Acknowledgement
