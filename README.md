@@ -143,10 +143,10 @@ We are featuring the contact details centered right under the contact form so th
 
 
 ### Adicional Testing
-
-I continuasly used dev tools to inspect my website and check if its responsive it in diferent sizes. Everything looked perfect untill after deployment. When viewing in 320px small mobile devices in dev tools 
+I continuously used dev tools to inspect my website and check if it's responsive in different sizes. Everything looked perfect until after deployment. When viewing 320px small mobile devices in dev tools, there would be a red area on the right-hand side appearing. At first, it was due to a margin that was applied to the contact form. After fixing the margin, everything seemed to align right, but occasionally the red line re-appears. I am not sure f this issue is due to dev tools not being so reliable or due to some other issue I was unable to identify. In medium and large mobile devices this issue does not appear.
 
 ## Validation
+After many changes to the code, it finally passed the validation stage. 
 
 ![html validation]( https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/html-validation.png)
 
