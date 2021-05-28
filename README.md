@@ -12,9 +12,8 @@ Its main goal is to provide useful information on the services it provides, befo
 
 #### The Business goals of the website are:
 * To increase brand awareness.
-* To Increase clientel.
+* * To Increase clientele.
 * To encourage potential clients to make a contact.
-*  To Showcase the garage's skills and reability.
 #### The customers visit the website to:
 * To find important and useful information about the business.
 * To find an affordable and reliable garage to fix their vehicle.
@@ -120,21 +119,28 @@ We are featuring the contact details centered right under the contact form so th
 ![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.1.png)
 
 2. As a business/car owner, I want to find whether the garage is trustworthy and reputable by seeing what previous projects they worked on.
-![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.2.png)
 * The user can view past projects in the gallery page. They can then decide whether the business is for them.
 
+![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.2.png)
+
 3. As an interested client/business, I want to be able to contact the garage easily.
-![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.3.png)
 * In the Contact Us page contact form and contact details are all centered so that they hit the users focus when entering the site.
 
+![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.3.png)
+
+
 4. As a potential client, I would like to learn more about the businesses services and get validation through their history and presence in their social media accounts.
-![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.4.png)
 * On the Home page, the user can see a list of services provided.
 * In the footer on every page, centered are the social media icons. When clicked, they take the user to a specific social media account.
 
+![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.4.png)
+
+
 5. As a business/visitor, I want to be able to find the contact information and location to get the information needed to contact and vissit the garage.
-![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.5.png)
 * On the Contact Us page, the user is greeted with contact information, address and a google map pinpointing the location. When on a mobile device the google map can be used with gps to brig the user to the location.
+
+![](https://github.com/MiaTothova/santos-body-repairs/blob/master/readme-images/no.5.png)
+
 
 ### Adicional Testing
 
